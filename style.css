@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    height: 500vh;
+    /* scroll ke liye space */
+}
+
+.canvas-container {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+canvas {
+    width: 100%;
+    height: 100%;
+}
